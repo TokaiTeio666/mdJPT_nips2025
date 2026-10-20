@@ -1,5 +1,10 @@
 # mdJPT: Multi-dataset Joint Pretrain Transformer for Emotion Decoder from EEG
 
+> 本 Fork 的重新部署入口：[重启说明与验收边界](docs/RESTART.md)。
+> `main` 保留原始代码，`codex/restart-baseline` 管理本项目的部署工作。
+> 当前恢复原始编码器、CDA 和 ISA 的验证；回归—排序微调尚未实现。
+> 以下保留作者原始说明，不要直接使用其服务器训练配置启动本机训练。
+
 ## Project Overview
 This project implements the code from the paper [mdJPT: Multi-dataset Joint Pretrain Transformer for Emotion Decoder from EEG](url). It is designed for joint training of emotion classification models across multiple EEG datasets.
 

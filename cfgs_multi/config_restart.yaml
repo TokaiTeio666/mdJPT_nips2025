@@ -1,0 +1,19 @@
+# Deployment/synthetic verification only. NOT a four-dataset training config.
+defaults:
+  - config_multi
+  - _self_
+
+log:
+  run_name: restart_baseline
+train:
+  parallel: false
+  n_gpu_use: 1
+  num_workers: 0
+  n_pairs: 4
+  max_epochs: 1
+  min_epochs: 1
+  loss:
+    clisa_loss: true
+    CDA_loss: true
+    CDA_factor: 0.01
+    to_riem: false

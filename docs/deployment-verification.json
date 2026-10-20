@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-20",
+  "upstream_commit": "bb84e89df5d05928ef3aa8645cbc339b59ed59de",
+  "model_source_unchanged": true,
+  "dependency_check": "pip check passed",
+  "resource_gate_tests": "4 passed",
+  "synthetic_gpu_check": {
+    "status": "passed",
+    "scope": "synthetic execution only; not scientific acceptance",
+    "source": "unmodified upstream MultiModel_PL, SimCLRLoss, CDALoss",
+    "torch": "2.12.0+cu132",
+    "cuda": "13.2",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "parameters": 754114,
+    "isa_per_domain": [
+      2.398123025894165,
+      1.0855985879898071,
+      1.6743084192276,
+      0.8630993366241455
+    ],
+    "isa_sum": 6.021129608154297,
+    "cda_raw": 6.251832962036133,
+    "cda_weight": 0.01,
+    "total": 6.083647727966309,
+    "isa_gradient_norm": 102.67542033088397,
+    "cda_gradient_norm": 0.5209761798788952,
+    "optimizer_changed_parameters": true,
+    "gpu_peak_allocated_mib": 4267.8671875
+  },
+  "resource_observations": {
+    "samples": 59,
+    "minimum_available_ram_mib": 3280.59765625,
+    "maximum_total_gpu_mib": 5266.0,
+    "maximum_temperature_c": 59.0,
+    "maximum_process_family_peak_ram_mib": 1914.5546875
+  },
+  "local_run_directory": "outputs/smoke_20261020T100822_621157Z",
+  "evidence_sha256": {
+    "resources.json": "465b009c5c7cd787c49aa3648d1c00b3d914574d26bb7d2fc3c29a334b4c0110",
+    "smoke.json": "9f31bab199302e487cd2e2eea7dc939f91a11e97636bc0d651bf6850a3290593",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "scope_limits": [
+    "Synthetic inputs, not four real datasets",
+    "No convergence or psychological-task claim",
+    "Regression-ranking loss not implemented",
+    "Inherited upstream CDA mathematical audit pending",
+    "Environment reuses base site-packages"
+  ]
+}

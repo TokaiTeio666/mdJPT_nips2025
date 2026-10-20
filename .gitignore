@@ -16,3 +16,15 @@ cp/
 outputs/
 /saved_data
 /visualize
+.venv/
+__pycache__/
+.pytest_cache/
+.vscode/
+/data/
+*.pt
+*.pth
+*.ckpt
+*.zip
+.env
+.env.*
+*.local.json
