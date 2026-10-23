@@ -1,0 +1,14 @@
+# Local single-GPU overrides; inherits upstream config_multi.
+defaults:
+  - config_multi
+  - _self_
+
+log:
+  run_name: local_single_gpu
+
+train:
+  parallel: false
+  n_gpu_use: 1
+  num_workers: 0
+
+# data_0 still inherits the upstream /mnt path; point it at local data before training.

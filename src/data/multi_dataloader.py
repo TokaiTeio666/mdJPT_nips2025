@@ -227,9 +227,10 @@ class MultiDataModule(pl.LightningDataModule):
 
     def train_dataloader(self):
         self.trainsampler = EEGSampler(datasets=self.trainsets, n_pairs=self.n_pairs)
-        self.trainloader = DataLoader(self.trainset, sampler=self.trainsampler,
-                                      pin_memory=True, num_workers=self.num_workers,
-                                      prefetch_factor=10)
+        loader_kwargs = dict(pin_memory=True, num_workers=self.num_workers)
+        if self.num_workers > 0:
+            loader_kwargs["prefetch_factor"] = 10
+        self.trainloader = DataLoader(self.trainset, sampler=self.trainsampler, **loader_kwargs)
         return self.trainloader
 
     def val_dataloader(self):
