@@ -1,0 +1,238 @@
+{
+ "source": "E:/mdJPT_nips2025-main/DASPS (SHA256 与 processed_clean_v4/source_files.json 比对)",
+ "subjects": {
+  "S01": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "proche"
+  },
+  "S02": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "proche"
+  },
+  "S03": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "maltraitance"
+  },
+  "S04": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "accident"
+  },
+  "S05": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "proche"
+  },
+  "S06": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "proche"
+  },
+  "S07": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "accident"
+  },
+  "S08": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "deadline"
+  },
+  "S09": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "accident"
+  },
+  "S10": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "finance"
+  },
+  "S11": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "accident"
+  },
+  "S12": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "accident"
+  },
+  "S13": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "proche"
+  },
+  "S14": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "accident"
+  },
+  "S15": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "proche"
+  },
+  "S16": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "famille"
+  },
+  "S17": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "finance"
+  },
+  "S18": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "proche"
+  },
+  "S19": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "accident"
+  },
+  "S20": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "proche"
+  },
+  "S21": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "famille"
+  },
+  "S22": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "proche"
+  },
+  "S23": {
+   "sha256_match": true,
+   "shape": [
+    12,
+    1920,
+    14
+   ],
+   "sam_pair_consistent": true,
+   "situation_word": "maltraitance"
+  }
+ },
+ "all_pairs_share_sam": true,
+ "all_shapes_ok": true,
+ "hashes_ok": true
+}

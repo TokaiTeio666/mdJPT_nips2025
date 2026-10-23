@@ -1,0 +1,76 @@
+{
+ "dataset": "DASPS",
+ "generated": "2026-10-23",
+ "raw_data": {
+  "path": "E:/mdJPT_nips2025-main/DASPS",
+  "n_files": 23,
+  "integrity": "SHA256 23/23 与 processed_clean_v4/DASPS/<sub>/source_files.json 记录一致，见 DASPS_raw_verification_2026-10-23.json"
+ },
+ "raw_schema": {
+  "data": "(12, 1920, 14) = trial x 采样点(128Hz,15s) x EPOC+14通道",
+  "labels": "(2, 12) = [valence; arousal] SAM 1-9, 每 trial 一组",
+  "hamilton": "(2, 1) = HAM-A 前/后测",
+  "situation": "(6, 1) uint16 字符码点 = 每被试一个法语词, 被试级字段"
+ },
+ "trial_structure_conclusion": {
+  "statement": "12 个 trial = 6 个焦虑情境情节 x 2 个阶段(单数 trial=治疗师朗读 0-15s, 双数 trial=被试回忆 15-30s), 每情节共享同一组 SAM 评分",
+  "evidence_data_internal": "labels[:,2k]==labels[:,2k+1] 对全部 23 被试、全部 6 对成立(valence 与 arousal 同时相等); 12 列里恰好 6 种取值各出现两次",
+  "evidence_protocol": "arXiv:1901.02942v2 \"recitation by the psychotherapist for the first 15 sec and Recall by the subject for the last 15 sec\"; PLOS ONE 2022 (PMC8932601) \"Both the recital and the imagination phase are composed of 15 seconds each\"; 两文均为 6 情境协议",
+  "evidence_fixed_order": [
+   "Baghdadi 2021 博士论文 p.47: \"The fixed protocol is as depicted in Figure 3.4\"（固定协议）",
+   "论文 Table 3.2 按位置 1..6 给出跨被试均值/标准差 —— 随机顺序下该表无意义，其存在本身即证明位置=刺激身份",
+   "Table 3.2 与本地原始 labels 逐位对账: 12/12 个 std(ddof=1) 两位小数全等, 12/12 个均值差<=0.01, CV 0.574/0.413 vs 论文 0.58/0.42（见 DASPS_table3_2_verification_2026-10-23.json）"
+  ]
+ },
+ "situation_field_interpretation": {
+  "statement": "situation 是被试级字段: 每人一个词, 与论文协议中\"被试自认最焦虑的情境\"一致; v4 曾把该词复制进每人所有 trial 的 labels.situation, 应视为被试属性而非 trial 元数据",
+  "vocabulary_fr_to_en": {
+   "proche": "loss_of_a_close_one",
+   "famille": "family_issues",
+   "finance": "financial_issues",
+   "deadline": "deadline",
+   "accident": "witnessing_a_deadly_accident",
+   "maltraitance": "mistreatment"
+  },
+  "distribution_23subs": {
+   "proche": 9,
+   "accident": 7,
+   "maltraitance": 2,
+   "finance": 2,
+   "famille": 2,
+   "deadline": 1
+  }
+ },
+ "alignment_tiers": {
+  "verified_2026_10_23": [
+   "trial 序号 k 跨被试 = 会话内同一序位",
+   "奇数 trial = 朗读阶段, 偶数 trial = 回忆阶段(论文文档化)",
+   "trial (2k-1, 2k) 属于同一情境情节(SAM 成对证明)",
+   "情境类别呈现顺序跨被试固定(fixed protocol + Table 3.2 数值对账)"
+  ],
+  "unknown": [
+   "位置 1..6 与类别名称(Loss/Family/Financial/Deadline/Accident/Mistreating)的对应表未发表(仅影响人类可读命名, 不影响 ISA 合法性)",
+   "治疗师口述脚本的逐字标准化程度未说明(刺激是面对面实时口头讲述, 跨被试波形永远不同, 无论如何到不了 exact)"
+  ],
+  "ceiling": "已达成 weak 档(与 SAM40 同级); exact 档不可达(现场个性化口述刺激)"
+ },
+ "v4_mapping": {
+  "statement": "processed_clean_v4 的 trial_01..trial_12 与原始文件 trial 1..12 按序一一对应, 每个 trial 为连续 1875 采样点(15s, 125Hz 重采样后), 23/23 被试核验"
+ },
+ "isa_conclusion": {
+  "tier": "weak (升级自 unverified)",
+  "main_run": "clisa_datasets 升级为 [DEAP, SAM40, DASPS]; 修改方案 §3.4 白名单与 DASPS_v4.yaml(n_vids=4) 无需重新切片 —— ISA 配对在窗口级(同被试内布局一致已 23/23 核验), 4 组×3 trial 的分组不影响窗口级对齐",
+  "budget_note": "窗口/步维持 38(DEAP16+SAM40 8+DASPS 8+EEGMAT 6), 显存预算不变",
+  "caveat_for_report": "DASPS ISA 配对语义 = 同序位情境类别 + 同阶段 + 情节内同时刻(weak, 与 SAM40 同级); 刺激为现场口述, 波形个体差异存在; 论文 p.47 记录刺激阶段被试闭眼",
+  "never": "exact"
+ },
+ "sources": [
+  "arXiv:1901.02942v2 (Baghdadi et al., DASPS 原始论文)",
+  "IEEE DataPort DASPS Database 页面(协议与下载说明, 官方分段脚本在 Documents and Code.zip)",
+  "PLOS ONE 2022, PMC8932601 (复述 DASPS 协议: 朗读/想象各 15 秒)",
+  "D:/大创/alignment_evidence/DASPS_raw_verification_2026-10-23.json (23/23 SHA256)",
+  "Asma Baghdadi PhD thesis 2021, tel-04163090 (theses.hal.science), Ch.3: DASPS protocol; local copy D:/大创/alignment_evidence/Baghdadi_thesis_2021.pdf",
+  "D:/大创/alignment_evidence/DASPS_table3_2_verification_2026-10-23.json"
+ ],
+ "updated": "2026-10-23 第二轮：博士论文(tel-04163090)协议章节取证 + Table 3.2 数值对账"
+}

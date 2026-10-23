@@ -1,0 +1,3636 @@
+{
+ "S01": {
+  "situation_word_raw": "proche",
+  "situation_category_interpretation": "loss_of_a_close_one",
+  "hamilton_pre_post": [
+   [
+    25.0
+   ],
+   [
+    37.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   }
+  ]
+ },
+ "S02": {
+  "situation_word_raw": "proche",
+  "situation_category_interpretation": "loss_of_a_close_one",
+  "hamilton_pre_post": [
+   [
+    21.0
+   ],
+   [
+    30.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 8
+   }
+  ]
+ },
+ "S03": {
+  "situation_word_raw": "maltraitance",
+  "situation_category_interpretation": "mistreatment",
+  "hamilton_pre_post": [
+   [
+    33.0
+   ],
+   [
+    36.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 7,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 7,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   }
+  ]
+ },
+ "S04": {
+  "situation_word_raw": "accident",
+  "situation_category_interpretation": "witnessing_a_deadly_accident",
+  "hamilton_pre_post": [
+   [
+    29.0
+   ],
+   [
+    33.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   }
+  ]
+ },
+ "S05": {
+  "situation_word_raw": "proche",
+  "situation_category_interpretation": "loss_of_a_close_one",
+  "hamilton_pre_post": [
+   [
+    36.0
+   ],
+   [
+    36.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   }
+  ]
+ },
+ "S06": {
+  "situation_word_raw": "proche",
+  "situation_category_interpretation": "loss_of_a_close_one",
+  "hamilton_pre_post": [
+   [
+    34.0
+   ],
+   [
+    38.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 5
+   }
+  ]
+ },
+ "S07": {
+  "situation_word_raw": "accident",
+  "situation_category_interpretation": "witnessing_a_deadly_accident",
+  "hamilton_pre_post": [
+   [
+    24.0
+   ],
+   [
+    27.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   }
+  ]
+ },
+ "S08": {
+  "situation_word_raw": "deadline",
+  "situation_category_interpretation": "deadline",
+  "hamilton_pre_post": [
+   [
+    17.0
+   ],
+   [
+    19.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   }
+  ]
+ },
+ "S09": {
+  "situation_word_raw": "accident",
+  "situation_category_interpretation": "witnessing_a_deadly_accident",
+  "hamilton_pre_post": [
+   [
+    17.0
+   ],
+   [
+    17.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 7,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 7,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   }
+  ]
+ },
+ "S10": {
+  "situation_word_raw": "finance",
+  "situation_category_interpretation": "financial_issues",
+  "hamilton_pre_post": [
+   [
+    7.0
+   ],
+   [
+    12.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 1
+   }
+  ]
+ },
+ "S11": {
+  "situation_word_raw": "accident",
+  "situation_category_interpretation": "witnessing_a_deadly_accident",
+  "hamilton_pre_post": [
+   [
+    15.0
+   ],
+   [
+    24.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   }
+  ]
+ },
+ "S12": {
+  "situation_word_raw": "accident",
+  "situation_category_interpretation": "witnessing_a_deadly_accident",
+  "hamilton_pre_post": [
+   [
+    28.0
+   ],
+   [
+    35.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   }
+  ]
+ },
+ "S13": {
+  "situation_word_raw": "proche",
+  "situation_category_interpretation": "loss_of_a_close_one",
+  "hamilton_pre_post": [
+   [
+    25.0
+   ],
+   [
+    25.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   }
+  ]
+ },
+ "S14": {
+  "situation_word_raw": "accident",
+  "situation_category_interpretation": "witnessing_a_deadly_accident",
+  "hamilton_pre_post": [
+   [
+    7.0
+   ],
+   [
+    7.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 2
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 2
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 2
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 2
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 4
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 4
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   }
+  ]
+ },
+ "S15": {
+  "situation_word_raw": "proche",
+  "situation_category_interpretation": "loss_of_a_close_one",
+  "hamilton_pre_post": [
+   [
+    12.0
+   ],
+   [
+    18.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 3
+   }
+  ]
+ },
+ "S16": {
+  "situation_word_raw": "famille",
+  "situation_category_interpretation": "family_issues",
+  "hamilton_pre_post": [
+   [
+    23.0
+   ],
+   [
+    26.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   }
+  ]
+ },
+ "S17": {
+  "situation_word_raw": "finance",
+  "situation_category_interpretation": "financial_issues",
+  "hamilton_pre_post": [
+   [
+    24.0
+   ],
+   [
+    29.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 7
+   }
+  ]
+ },
+ "S18": {
+  "situation_word_raw": "proche",
+  "situation_category_interpretation": "loss_of_a_close_one",
+  "hamilton_pre_post": [
+   [
+    15.0
+   ],
+   [
+    17.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   }
+  ]
+ },
+ "S19": {
+  "situation_word_raw": "accident",
+  "situation_category_interpretation": "witnessing_a_deadly_accident",
+  "hamilton_pre_post": [
+   [
+    34.0
+   ],
+   [
+    44.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 4,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 4,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 6
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 6
+   }
+  ]
+ },
+ "S20": {
+  "situation_word_raw": "proche",
+  "situation_category_interpretation": "loss_of_a_close_one",
+  "hamilton_pre_post": [
+   [
+    27.0
+   ],
+   [
+    38.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 5
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 7
+   }
+  ]
+ },
+ "S21": {
+  "situation_word_raw": "famille",
+  "situation_category_interpretation": "family_issues",
+  "hamilton_pre_post": [
+   [
+    17.0
+   ],
+   [
+    23.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 2,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   }
+  ]
+ },
+ "S22": {
+  "situation_word_raw": "proche",
+  "situation_category_interpretation": "loss_of_a_close_one",
+  "hamilton_pre_post": [
+   [
+    13.0
+   ],
+   [
+    28.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 3,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 2
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 2
+   }
+  ]
+ },
+ "S23": {
+  "situation_word_raw": "maltraitance",
+  "situation_category_interpretation": "mistreatment",
+  "hamilton_pre_post": [
+   [
+    12.0
+   ],
+   [
+    14.0
+   ]
+  ],
+  "trials": [
+   {
+    "raw_trial_index_1based": 1,
+    "v4_trial_id": "trial_01",
+    "situation_episode": 1,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 2,
+    "v4_trial_id": "trial_02",
+    "situation_episode": 1,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 3,
+    "v4_trial_id": "trial_03",
+    "situation_episode": 2,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 4,
+    "v4_trial_id": "trial_04",
+    "situation_episode": 2,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 7
+   },
+   {
+    "raw_trial_index_1based": 5,
+    "v4_trial_id": "trial_05",
+    "situation_episode": 3,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 6,
+    "v4_trial_id": "trial_06",
+    "situation_episode": 3,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 8
+   },
+   {
+    "raw_trial_index_1based": 7,
+    "v4_trial_id": "trial_07",
+    "situation_episode": 4,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 9
+   },
+   {
+    "raw_trial_index_1based": 8,
+    "v4_trial_id": "trial_08",
+    "situation_episode": 4,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 1,
+    "sam_arousal": 9
+   },
+   {
+    "raw_trial_index_1based": 9,
+    "v4_trial_id": "trial_09",
+    "situation_episode": 5,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 10,
+    "v4_trial_id": "trial_10",
+    "situation_episode": 5,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 1
+   },
+   {
+    "raw_trial_index_1based": 11,
+    "v4_trial_id": "trial_11",
+    "situation_episode": 6,
+    "stage": "recitation",
+    "time_within_trial_s": [
+     0.0,
+     15.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 3
+   },
+   {
+    "raw_trial_index_1based": 12,
+    "v4_trial_id": "trial_12",
+    "situation_episode": 6,
+    "stage": "recall",
+    "time_within_trial_s": [
+     15.0,
+     30.0
+    ],
+    "sam_valence": 5,
+    "sam_arousal": 3
+   }
+  ]
+ }
+}
