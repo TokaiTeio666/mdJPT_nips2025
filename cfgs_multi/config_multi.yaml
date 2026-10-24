@@ -37,6 +37,7 @@ train:
   save_interval: 1
   loss:
     clisa_loss: True
+    clisa_datasets: null # optional per-source ISA whitelist (list of dataset_name); null = all datasets (original behavior)
     temp: 0.07
     CDA_loss: True
     CDA_factor: 1e-2

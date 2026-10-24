@@ -186,7 +186,13 @@ class MultiModel_PL(pl.LightningModule):
 
         # 计算损失
         if self.cfg.train.loss.clisa_loss:
+            # optional per-source ISA whitelist: only datasets whose cross-subject
+            # stimulus pairing has alignment evidence (see docs/four_source_v4/)
+            clisa_whitelist = self.cfg.train.loss.get('clisa_datasets', None)
             for dataset, fea_clisa_i in enumerate(fea_clisa):
+                if clisa_whitelist is not None and \
+                        self.cfg.data_cfg_list[dataset].dataset_name not in clisa_whitelist:
+                    continue
                 clisa_loss_i, logits_i, labels_i, (acc_1, acc_5) = self.clisa_loss(fea_clisa_i)
                 loss += clisa_loss_i
 

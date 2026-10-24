@@ -1,0 +1,29 @@
+# Four-source v4 joint pretraining.
+# Data: D:/大创/processed_clean_v4 -> D:/大创/mdjpt_data_v4 (tools/build_sliced_v4.py)
+# ISA whitelist per alignment evidence (docs/four_source_v4/alignment_evidence/):
+#   DEAP exact, SAM40 weak, DASPS weak (upgraded 2026-10-23); EEGMAT CDA-only.
+# Budget: 2*(8+4+4+3) = 38 windows/step ~= 6.5 GiB on the 8 GiB laptop GPU.
+defaults:
+  - config_multi
+  - _self_
+  - override data@data_0: DASPS_v4
+  - override data@data_1: DEAP_v4
+  - override data@data_2: SAM40_v4
+  - override data@data_3: EEGMAT_v4
+
+log:
+  run_name: pretrain_4src_v4
+
+train:
+  parallel: false
+  n_gpu_use: 1
+  num_workers: 0   # EEGSampler uses python random; >0 workers duplicate batches
+  n_pairs: 1024
+  max_epochs: 3
+  min_epochs: 1
+  loss:
+    clisa_loss: true
+    clisa_datasets: [DEAP, SAM40, DASPS]
+    CDA_loss: true
+    CDA_factor: 0.01
+    to_riem: false
