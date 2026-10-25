@@ -45,7 +45,7 @@ def run_pipeline(cfg: DictConfig):
         logger_save_dir = os.path.join(save_dir, str(fold))
         if not os.path.exists(logger_save_dir):
             os.makedirs(logger_save_dir)
-            logger = TensorBoardLogger(save_dir=logger_save_dir, name=run_name)
+        logger = TensorBoardLogger(save_dir=logger_save_dir, name=run_name)
         cfg.data_cfg_list = [cfg.data_0, cfg.data_1, cfg.data_2, cfg.data_3, cfg.data_4]
         cfg.data_cfg_list = [cfg_i for cfg_i in cfg.data_cfg_list if cfg_i.dataset_name != 'None']
         print(f'Using {len(cfg.data_cfg_list)} datasets to pretrain')
@@ -67,6 +67,7 @@ def run_pipeline(cfg: DictConfig):
         limit_val_batches = 0.0 if n_folds == 1 else 1.0
         trainer = pl.Trainer(
             callbacks=[checkpoint_callback],
+            logger=logger,
             max_epochs=cfg.train.max_epochs, min_epochs=cfg.train.min_epochs, 
             accelerator='gpu', devices=devices, strategy=strategy,
             limit_val_batches=limit_val_batches

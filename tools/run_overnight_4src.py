@@ -122,14 +122,18 @@ def tb_trend(run_name):
                           size_guidance={'scalars': 0})
     ea.Reload()
     trends = {}
+    single = []
     for tag in ea.Tags().get('scalars', []):
         if 'clisa' not in tag and 'cda' not in tag:
             continue
         v = ea.Scalars(tag)
         if len(v) >= 2:
             trends[tag] = bool(v[-1].value < v[0].value)
+        elif len(v) == 1:
+            single.append(tag)
     if not trends:
-        return {'trend': 'no_loss_scalars'}
+        return {'trend': 'single_epoch_undefined' if single else 'no_loss_scalars',
+                'single_point_tags': single}
     return {'trends': trends, 'trend': all(trends.values())}
 
 
@@ -147,8 +151,6 @@ def stage_preflight(st):
         raise RuntimeError(f'cannot read build_audit.json ({e}); run tools/build_sliced_v4.py first')
     assert audit.get('gate1_per_channel_std_0.3_3') == 'PASS' and \
         audit.get('gate2_cda_ratio_lt_3') == 'PASS', 'build gates not PASS'
-    for src in CONDITIONS:  # all four sliced dirs must exist
-        pass
     for src in ['DASPS', 'DEAP', 'SAM40', 'EEGMAT']:
         if not os.path.exists(f'D:/大创/mdjpt_data_v4/{src}/sliced_data/sliced_len5_step2/saved.npy'):
             raise RuntimeError(f'{src}: sliced data missing; run tools/build_sliced_v4.py')
@@ -229,9 +231,10 @@ def stage_pretrain(st):
 
 
 def stage_extract(st):
+    random_seeds = {f'random_s{s % 100}': s for s in SEEDS}
     jobs = [(f'4src_{c}_s{s % 100}', latest_ckpt(f'4src_{c}_s{s % 100}'))
             for c in CONDITIONS for s in SEEDS]
-    jobs += [(f'random_s{s % 100}', None) for s in SEEDS]
+    jobs += [(name, None) for name in random_seeds]
     for name, ckpt in jobs:
         out = os.path.join(OVER, 'features', name)
         if os.path.exists(os.path.join(out, 'EEGMAT.npz')):
@@ -246,7 +249,7 @@ def stage_extract(st):
         if ckpt:
             cmd += [f'--ckpt={ckpt}']
         else:
-            cmd += [f'--seed={SEEDS[int(name[-2:]) - 32]}']
+            cmd += [f'--seed={random_seeds[name]}']
         rc, timed_out = run_cmd(cmd, f'extract_{name}.log', 3600)
         ok = os.path.exists(os.path.join(out, 'EEGMAT.npz'))
         st['extracts'][name] = {'status': 'done' if ok else 'fail', 'rc': rc,

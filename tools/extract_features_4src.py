@@ -61,7 +61,7 @@ def load_records(sub_dir):
     return by_key
 
 
-def load_ckpt_state(ckpt, device):
+def load_ckpt_state(ckpt):
     try:
         return torch.load(ckpt, map_location='cpu')['state_dict']
     except Exception:
@@ -178,7 +178,7 @@ def main():
             print(f'ERROR: ckpt not found: {args.ckpt}')
             sys.exit(2)
         try:
-            model.load_state_dict(load_ckpt_state(args.ckpt, device))
+            model.load_state_dict(load_ckpt_state(args.ckpt))
             print(f'loaded ckpt {args.ckpt}')
         except Exception as e:
             print(f'ERROR: ckpt load failed ({e}); corrupt or partial checkpoint?')
