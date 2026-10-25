@@ -30,3 +30,4 @@ __pycache__/
 *.local.json
 overnight/
 .hydra/
+log/4src_*/ckpt/
