@@ -43,8 +43,15 @@ STATUS = os.path.join(OVER, 'status.json')
 
 
 def load_status():
-    return json.load(open(STATUS, encoding='utf-8')) if os.path.exists(STATUS) \
-        else {'runs': {}, 'stages': {}, 'extracts': {}}
+    if os.path.exists(STATUS):
+        st = json.load(open(STATUS, encoding='utf-8'))
+    else:
+        st = {}
+    # status files written by older versions may lack newer keys
+    st.setdefault('runs', {})
+    st.setdefault('stages', {})
+    st.setdefault('extracts', {})
+    return st
 
 
 def save_status(st):
