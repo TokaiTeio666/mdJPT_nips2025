@@ -29,5 +29,8 @@ __pycache__/
 .env.*
 *.local.json
 overnight/
+overnight6/features/
+overnight6/bandpower_cache/
 .hydra/
 log/4src_*/ckpt/
+log/6src_*/ckpt/

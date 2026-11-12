@@ -1,0 +1,35 @@
+# Six-source v6 joint pretraining: the four v4 sources + the two new anxiety
+# resting-state datasets (ds007609 trait/state STAI, ds004902 SAI).
+# Data adapters: tools/build_sliced_v4.py (old four, unchanged) and
+# tools/build_sliced_v6.py (DS007609, DS004902).
+# ISA whitelist per alignment evidence: DEAP exact, SAM40 weak, DASPS weak,
+# DS007609 weak (protocol-locked EO/EC blocks), DS004902 weak (condition+session
+# locked); EEGMAT CDA-only (no time-locked stimulus, unchanged from v4).
+# Budget: 2*(4+8+4+3+2+2) = 38 windows/step ~= 6.5 GiB on the 8 GiB laptop GPU
+# (identical to the measured 4src budget; the new sources pool EO/EC into K=2).
+defaults:
+  - config_multi
+  - _self_
+  - override data@data_0: DASPS_v4
+  - override data@data_1: DEAP_v6   # n_vids 8->4: keeps the 6-source step at 38 windows (VRAM gate)
+  - override data@data_2: SAM40_v4
+  - override data@data_3: EEGMAT_v6   # n_vids 3->2: VRAM trim (CDA-only source)
+  - override data@data_4: DS007609_v6
+  - override data@data_5: DS004902_v6
+
+log:
+  run_name: pretrain_6src_v6
+
+train:
+  parallel: false
+  n_gpu_use: 1
+  num_workers: 0   # EEGSampler uses python random; >0 workers duplicate batches
+  n_pairs: 1024
+  max_epochs: 3
+  min_epochs: 1
+  loss:
+    clisa_loss: true
+    clisa_datasets: [DEAP, SAM40, DASPS, DS007609, DS004902]
+    CDA_loss: true
+    CDA_factor: 0.01
+    to_riem: false

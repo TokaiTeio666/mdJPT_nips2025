@@ -246,6 +246,7 @@ def top_k_accuracy(logits, labels, ks=[1, 5]):
     - acc_list: List of accuracies corresponding to each k in ks
     """
     max_k = max(ks)  # 计算需要的最大 k 值
+    max_k = min(max_k, logits.size(1))  # guard: SimCLR logits have N-1 columns; small batches can be narrower than k=5
     batch_size = labels.size(0)
 
     # 获取 top-k 预测，返回的 top_preds 形状为 (N, max_k)

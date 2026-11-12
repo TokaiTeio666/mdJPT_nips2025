@@ -6,6 +6,7 @@ defaults:
   - data@data_2: None # dataset 2 used in pretrain
   - data@data_3: None # dataset 3 used in pretrain
   - data@data_4: None # dataset 4 used in pretrain
+  - data@data_5: None # dataset 5 used in pretrain (6-source v6 extension)
   - data@data_val: SEEDV # dataset used for validation (emotion classification)
 
 # all available dataset:

@@ -1,0 +1,227 @@
+{
+ "runs": {
+  "6src_isa_s32": {
+   "cond": "isa",
+   "seed": 19260832,
+   "rc": 0,
+   "timed_out": false,
+   "seconds": 1641,
+   "trends": {
+    "loss_clisa_DASPS/train": true,
+    "loss_clisa_DEAP/train": true,
+    "loss_clisa_SAM40/train": true,
+    "loss_clisa_DS007609/train": true,
+    "loss_clisa_DS004902/train": true
+   },
+   "trend": true,
+   "status": "done"
+  },
+  "6src_isa_s33": {
+   "cond": "isa",
+   "seed": 19260833,
+   "rc": 0,
+   "timed_out": false,
+   "seconds": 1425,
+   "trends": {
+    "loss_clisa_DASPS/train": true,
+    "loss_clisa_DEAP/train": true,
+    "loss_clisa_SAM40/train": true,
+    "loss_clisa_DS007609/train": true,
+    "loss_clisa_DS004902/train": true
+   },
+   "trend": true,
+   "status": "done"
+  },
+  "6src_isa_s34": {
+   "cond": "isa",
+   "seed": 19260834,
+   "rc": 0,
+   "timed_out": false,
+   "seconds": 1334,
+   "trends": {
+    "loss_clisa_DASPS/train": true,
+    "loss_clisa_DEAP/train": true,
+    "loss_clisa_SAM40/train": true,
+    "loss_clisa_DS007609/train": true,
+    "loss_clisa_DS004902/train": true
+   },
+   "trend": true,
+   "status": "done"
+  },
+  "6src_cda_s32": {
+   "cond": "cda",
+   "seed": 19260832,
+   "rc": 0,
+   "timed_out": false,
+   "seconds": 2724,
+   "trends": {
+    "loss_cda/train": true
+   },
+   "trend": true,
+   "status": "done"
+  },
+  "6src_cda_s33": {
+   "cond": "cda",
+   "seed": 19260833,
+   "rc": 0,
+   "timed_out": false,
+   "seconds": 2823,
+   "trends": {
+    "loss_cda/train": true
+   },
+   "trend": true,
+   "status": "done"
+  },
+  "6src_cda_s34": {
+   "cond": "cda",
+   "seed": 19260834,
+   "rc": 0,
+   "timed_out": false,
+   "seconds": 2723,
+   "trends": {
+    "loss_cda/train": true
+   },
+   "trend": true,
+   "status": "done"
+  },
+  "6src_isacda_s32": {
+   "cond": "isacda",
+   "seed": 19260832,
+   "rc": 0,
+   "timed_out": false,
+   "seconds": 2946,
+   "trends": {
+    "loss_clisa_DASPS/train": true,
+    "loss_clisa_DEAP/train": true,
+    "loss_clisa_SAM40/train": true,
+    "loss_clisa_DS007609/train": true,
+    "loss_clisa_DS004902/train": true,
+    "loss_cda/train": false
+   },
+   "trend": false,
+   "status": "done"
+  },
+  "6src_isacda_s33": {
+   "cond": "isacda",
+   "seed": 19260833,
+   "rc": 0,
+   "timed_out": false,
+   "seconds": 3680,
+   "trends": {
+    "loss_clisa_DASPS/train": true,
+    "loss_clisa_DEAP/train": true,
+    "loss_clisa_SAM40/train": true,
+    "loss_clisa_DS007609/train": true,
+    "loss_clisa_DS004902/train": true,
+    "loss_cda/train": false
+   },
+   "trend": false,
+   "status": "done"
+  },
+  "6src_isacda_s34": {
+   "cond": "isacda",
+   "seed": 19260834,
+   "rc": 0,
+   "timed_out": false,
+   "seconds": 3115,
+   "trends": {
+    "loss_clisa_DASPS/train": true,
+    "loss_clisa_DEAP/train": true,
+    "loss_clisa_SAM40/train": true,
+    "loss_clisa_DS007609/train": true,
+    "loss_clisa_DS004902/train": true,
+    "loss_cda/train": false
+   },
+   "trend": false,
+   "status": "done"
+  }
+ },
+ "stages": {
+  "preflight": {
+   "status": "PASS",
+   "gpu_free_mib": 7948,
+   "disk_free_gb": 196.2
+  },
+  "smoke": {
+   "status": "PASS",
+   "rc": 0
+  },
+  "probe": {
+   "status": "PASS",
+   "rc": 0
+  }
+ },
+ "extracts": {
+  "6src_isa_s32": {
+   "status": "done",
+   "rc": 0,
+   "timed_out": false,
+   "ckpt": "D:\\大创\\mdJPT_nips2025\\log\\6src_isa_s32\\ckpt\\epoch=02.ckpt"
+  },
+  "6src_isa_s33": {
+   "status": "done",
+   "rc": 0,
+   "timed_out": false,
+   "ckpt": "D:\\大创\\mdJPT_nips2025\\log\\6src_isa_s33\\ckpt\\epoch=02.ckpt"
+  },
+  "6src_isa_s34": {
+   "status": "done",
+   "rc": 0,
+   "timed_out": false,
+   "ckpt": "D:\\大创\\mdJPT_nips2025\\log\\6src_isa_s34\\ckpt\\epoch=02.ckpt"
+  },
+  "6src_cda_s32": {
+   "status": "done",
+   "rc": 0,
+   "timed_out": false,
+   "ckpt": "D:\\大创\\mdJPT_nips2025\\log\\6src_cda_s32\\ckpt\\epoch=02.ckpt"
+  },
+  "6src_cda_s33": {
+   "status": "done",
+   "rc": 0,
+   "timed_out": false,
+   "ckpt": "D:\\大创\\mdJPT_nips2025\\log\\6src_cda_s33\\ckpt\\epoch=02.ckpt"
+  },
+  "6src_cda_s34": {
+   "status": "done",
+   "rc": 0,
+   "timed_out": false,
+   "ckpt": "D:\\大创\\mdJPT_nips2025\\log\\6src_cda_s34\\ckpt\\epoch=02.ckpt"
+  },
+  "6src_isacda_s32": {
+   "status": "done",
+   "rc": 0,
+   "timed_out": false,
+   "ckpt": "D:\\大创\\mdJPT_nips2025\\log\\6src_isacda_s32\\ckpt\\epoch=02.ckpt"
+  },
+  "6src_isacda_s33": {
+   "status": "done",
+   "rc": 0,
+   "timed_out": false,
+   "ckpt": "D:\\大创\\mdJPT_nips2025\\log\\6src_isacda_s33\\ckpt\\epoch=02.ckpt"
+  },
+  "6src_isacda_s34": {
+   "status": "done",
+   "rc": 0,
+   "timed_out": false,
+   "ckpt": "D:\\大创\\mdJPT_nips2025\\log\\6src_isacda_s34\\ckpt\\epoch=02.ckpt"
+  },
+  "random_s32": {
+   "status": "done",
+   "cached": true
+  },
+  "random_s33": {
+   "status": "done",
+   "rc": 0,
+   "timed_out": false,
+   "ckpt": null
+  },
+  "random_s34": {
+   "status": "done",
+   "rc": 0,
+   "timed_out": false,
+   "ckpt": null
+  }
+ },
+ "updated": "2026-10-30 17:22:13"
+}
